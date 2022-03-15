@@ -1,0 +1,236 @@
+.section1-team {
+  width: 100% !important;
+  margin-right: 2rem;
+}
+.section1-team h3 {
+  color: #fafbfb;
+  font-family: "Blinker";
+  width: 80%;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+}
+.section1-team h6 {
+  font-family: "Blinker";
+  color: #a6aebb;
+  width: 80%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.D-grid1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5rem !important;
+}
+.grid-pic {
+  width: 80%;
+}
+
+.section3-3 {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  border: 0.3px solid #42526d;
+  background: rgba(66, 82, 109, 0.08);
+}
+.section3-3:hover {
+  border: 2px solid #6ba6ff;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25% !important;
+
+  border-right: 0.5px solid #42526d;
+}
+.portfolio:hover {
+  border: 2px solid #6ba6ff;
+}
+.portfolio h2 {
+  color: #fafbfb;
+  font-family: "Blinker";
+  font-size: 48px;
+  line-height: 55px;
+  text-align: Center;
+}
+.portfolio h6 {
+  color: #7a8699;
+  size: 19px;
+  line-height: 18px;
+  text-align: Center;
+  margin-top: -15px;
+  padding-bottom: 2rem;
+}
+
+.our-footprint {
+  margin-top: 10rem;
+}
+
+.footprint-portfolio {
+  color: #6ba6ff;
+  font-family: "Blinker";
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.passionate-portfolio {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  color: #fafbfb;
+  font-family: "Blinker";
+  text-align: center;
+  font-size: 48px;
+  line-height: 50px;
+}
+.africa {
+  margin-top: 6rem;
+
+  display: flex;
+  width: 100%;
+}
+.book {
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.book1 {
+  width: 50%;
+}
+.orange-top {
+  background: #c8591b;
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  height: 221.53px;
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+}
+.orange-top:hover {
+  border: 5px solid #1b60c8;
+}
+.orange-top h2 {
+  font-family: "Sansita Swashed", cursive;
+  color: #fafbfb;
+}
+.orange-top h5 {
+  font-family: "Sansita Swashed", cursive;
+  color: #fafbfb;
+  margin-top: -2rem;
+}
+
+.blue-top {
+  background: #1b60c8;
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  height: 221.53px;
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+}
+.blue-top:hover {
+  border: 5px solid #c8591b;
+}
+.blue-top h2 {
+  font-family: "Sansita Swashed", cursive;
+  color: #fafbfb;
+}
+.blue-top h5 {
+  font-family: "Sansita Swashed", cursive;
+  color: #fafbfb;
+  margin-top: -2rem;
+}
+.body1 {
+  background: #101a2d;
+  border-radius: 0px 0px 12px 12px;
+  width: 100%;
+  height: 471.62px;
+  padding: 2rem;
+}
+.body1:hover {
+  border: 5px solid #1b60c8;
+}
+.body1 h5 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 32px;
+
+  color: #fafbfb;
+}
+.body1 h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #fafbfb;
+  background: #2b7fff;
+  border-radius: 12px;
+  width: 90.96px;
+  height: 21px;
+}
+.body1 p {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #7a8699;
+}
+.body1 a {
+  background: #1f2a3e !important;
+  border-radius: 12px;
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  /* line-height: 24px; */
+  color: #ebf3ff;
+  margin-top: 4rem;
+}
+.body1 a:hover{
+  background-color:#c8591b !important;
+  color:#ebf3ff !important
+}
+.body1 a i {
+  margin-right: 1rem;
+}
+.show-more {
+  margin-top: 10rem;
+
+  text-align: center;
+}
+.show-more a {
+  font-family: "Blinker";
+  padding: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  background: #1b60c8;
+  color: #ebf3ff !important;
+  width: 15rem;
+  height: 4rem;
+  /* line-height: 24px; */
+  border-radius: 12px;
+}
+.show-more a:hover {
+  background-color: #1f2a3e;
+  border-radius: 12px;
+}

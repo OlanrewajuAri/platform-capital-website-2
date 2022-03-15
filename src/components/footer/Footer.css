@@ -1,0 +1,64 @@
+.white-style {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #7a8699;
+  margin-bottom: 3rem;
+}
+footer a {
+  font-family: "Blinker" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 14px !important;
+  line-height: 26px !important;
+
+  color: #f5f6f7;
+}
+footer ul li {
+  margin-top: 3rem;
+}
+
+.footers {
+  margin-top: 10rem;
+}
+
+.foo {
+  padding-top: 1rem;
+  /* text-align: center; */
+  width: 2rem;
+  height: 2rem;
+  /* margin-right: 3px; */
+  background: #101a2d;
+  border-radius: 1rem;
+}
+
+.reserved-rights {
+  padding-top: 10rem;
+  text-align: center;
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #7a8699;
+}
+
+.last-section {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.b-logo {
+  width: 20%;
+}
+.footer-icons {
+  /* text-align: right; */
+  width: 100%;
+}

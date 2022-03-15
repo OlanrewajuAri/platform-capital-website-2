@@ -1,0 +1,253 @@
+.main3 {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  height: auto;
+  margin-top: 10rem
+}
+
+.section3-1 {
+  width: 50%;
+  color: #fafbfb;
+  font-family: "Blinker";
+  font-size: 33px;
+  line-height: 35px;
+}
+
+.section3-2 {
+  width: 50%;
+  color: #a6aebb;
+  font-family: "Blinker";
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.section3-3 {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  border: 0.3px solid #42526d;
+  background: rgba(66, 82, 109, 0.08);
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25% !important;
+
+  border-right: 0.5px solid #42526d;
+}
+.portfolio h2 {
+  color: #fafbfb;
+  font-family: "Blinker";
+  font-size: 48px;
+  line-height: 55px;
+  text-align: Center;
+}
+.portfolio h6 {
+  color: #7a8699;
+  size: 19px;
+  line-height: 18px;
+  text-align: Center;
+  margin-top: -15px;
+  padding-bottom: 2rem;
+}
+
+.main-values {
+  margin-top: 10rem;
+  display: flex;
+  width: 100%;
+  height: 15rem;
+}
+
+.woman3 {
+  width: 50%;
+}
+
+.woman3 img {
+  width: 397.38px;
+  height: 556.13px;
+  transform: rotateY(180deg);
+  border-radius: 200px;
+}
+.values {
+  width: 50%;
+  margin-top: 5rem;
+
+  /* margin-left: 1rem; */
+}
+.values h6 {
+  font-family: "Blinker";
+  color: #6ba6ff;
+  font-size: 19px;
+  line-height: 27px;
+
+  letter-spacing: 0.15em;
+  width: 100%;
+}
+.values h1 {
+  font-family: "Blinker";
+  color: #fafbfb;
+  font-size: 48px;
+  line-height: 70px;
+  width: 100%;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.values h2 {
+  font-family: "Blinker";
+  font-size: 48px;
+  line-height: 55px;
+  color: #42526d;
+  width: 100%;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.investment {
+  width: 100%;
+  margin-top: 5rem;
+}
+.investment h6 {
+  font-family: "Blinker";
+  color: #6ba6ff;
+  font-size: 19px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  width: 100%;
+}
+.investment h2 {
+  font-family: "Blinker";
+  font-size: 48px;
+  line-height: 55px;
+  color: #fafbfb;
+  width: 100%;
+  margin-top: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+.investment1 {
+  font-family: "Blinker";
+  color: #a6aebb !important;
+  font-size: 19px;
+  line-height: 27px;
+  text-align: center;
+
+  width: 100%;
+}
+
+.key-areas {
+  width: 100%;
+  display: flex;
+  margin-top: 3rem;
+}
+.area {
+  width: 30%;
+  height: rem;
+  border: 1px solid #42526d;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 0px 20px 0px 20px;
+  margin-right: 2rem;
+  height: auto;
+
+  background: #010712;
+}
+.key-areas .area h5 {
+  font-family: "Blinker";
+
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 35px;
+
+  color: #fafbfb;
+}
+.key-areas .area p {
+  font-family: "Blinker";
+
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  /* margin-top: 2rem; */
+
+  color: #a6aebb;
+}
+
+.key-areas .area .icons {
+  /* background: #6BA6FF; */
+  color: #6ba6ff;
+  padding-top: 2rem !important;
+  margin-top: 0px !important;
+}
+.main-consumer-led-factors {
+  display: flex;
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.video1 {
+  width: 70%;
+  height: 70%;
+  margin-top: 2rem;
+  /* height: 900px; */
+  /* width: 900px;   */
+}
+.consumer-led-sectors {
+  width: 50%;
+
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.consumer-led-sectors h3 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  color: #fafbfb;
+}
+.consumer-led-sectors p {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 1rem !important;
+
+  color: #a6aebb;
+}
+
+.partner-top {
+  margin-top: 10rem;
+}
+.partners {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 27px;
+  text-align: center;
+
+  letter-spacing: 0.15em;
+
+  color: #c2c7d0;
+}
+.partner-div {
+  height: 4rem;
+  width: 20rem;
+  background: rgba(66, 82, 109, 0.08);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+
+  border-radius: 12px;
+  margin-right: 2rem;
+}
+.container-partner {
+  display: flex;
+  margin-top: 3rem;
+}

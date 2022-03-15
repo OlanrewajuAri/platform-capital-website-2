@@ -1,0 +1,213 @@
+.section-team {
+  width: 80% !important;
+  margin-right: 3rem;
+}
+.section1-team h3 {
+  color: #fafbfb;
+  font-family: "Blinker";
+  width: 100%;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 70px;
+}
+.section1-team h6 {
+  font-family: "Blinker";
+  color: #a6aebb;
+  width: 80%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+.section1-team a {
+  width: 15rem;
+  height: 4rem;
+  color: white !important;
+  background-color: #0065ff !important;
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: 10px;
+  text-transform: lowercase;
+  font-size: 19px;
+  font-family: "blinker";
+}
+.section1-team a:hover {
+  color: white !important;
+  background: #1f2a3e !important;
+  backdrop-filter: blur(20px);
+
+  border-radius: 5px;
+}
+
+.D-grid {
+  width: 100%;
+  display: flex;
+
+  margin-top: 5rem !important;
+}
+.grid-pic {
+  width: 80%;
+}
+.roots {
+  margin-bottom: 40rem;
+}
+.main-values-team {
+  margin-top: 15rem;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 15rem;
+}
+
+.woman-team1 {
+  width: 50%;
+}
+
+.woman-team1 img {
+  width: 397.38px;
+  height: 556.13px;
+  /* transform: rotateY(180deg); */
+}
+.values-team {
+  width: 50%;
+  /* margin-top: 5rem; */
+}
+.values-team h2 {
+  margin-top: 0;
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 50px;
+
+  color: #fafbfb;
+}
+.values-team p {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 24px;
+
+  color: #7a8699;
+}
+.values-team h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 28px;
+  /* text-align: center; */
+
+  color: #6ba6ff;
+}
+.values-team button {
+  width: 20rem;
+  height: 4rem;
+  color: white !important;
+  background-color: #0065ff !important;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-transform: lowercase;
+  font-size: 19px;
+  font-family: "blinker";
+}
+.values-team button:hover {
+  color: white !important;
+  background: #1f2a3e !important;
+  backdrop-filter: blur(20px);
+
+  border-radius: 10px;
+}
+.values-team button i {
+  margin-right: 10px;
+}
+
+.modal {
+  background-color: transparent !important;
+}
+.modal-footer {
+  /* background-color: transparent !important; */
+}
+.senior-team {
+  margin-top: -20rem;
+}
+.senior-team h1 {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 70px;
+
+  text-align: center;
+
+  color: #fafbfb;
+}
+.senior-team p {
+  margin-top: 1rem;
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #7a8699;
+}
+.senior-pic {
+  margin-top: 6rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.senior-pic .pics {
+  width: 20%;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.senior-pic img {
+  width: 100%;
+}
+.senior-pic img:hover {
+  border: 1px solid #7a8699;
+  border-radius: 16px;
+}
+
+.senior-pic h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 24px;
+
+  color: #fafbfb;
+}
+.senior-pic p {
+  margin-top: -10px;
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7a8699;
+}
+.associates {
+  margin-top: 10rem;
+}
+.associates h1 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 70px;
+
+  text-align: center;
+
+  color: #fafbfb;
+}

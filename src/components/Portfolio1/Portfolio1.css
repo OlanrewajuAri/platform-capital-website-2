@@ -1,0 +1,253 @@
+.porfolio-company {
+  width: 100%;
+  margin-top: 10rem;
+  text-align: center;
+}
+.porfolio-company h2 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 55px;
+
+  color: #fafbfb;
+}
+.porfolio-company p {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 27px;
+
+  color: #7a8699;
+}
+.main-direct {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+}
+
+.direct {
+  width: 60%;
+  margin-right: 2rem;
+  background: #091e42;
+  padding: 3rem;
+
+  border: 1px solid #6ba6ff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+
+  border-radius: 24px;
+}
+
+.direct1 {
+  width: 40%;
+  background: rgba(66, 82, 109, 0.08);
+  padding: 3rem;
+  border: 1px solid #42526d;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+
+  border-radius: 24px;
+}
+.direct h1 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 40px;
+
+  text-align: left;
+  margin-left: 3rem;
+  color: #fafbfb;
+}
+.direct h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+
+  text-align: left;
+  margin-left: 3rem;
+  color: #7a8699;
+}
+.direct1 h1 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 40px;
+
+  text-align: left;
+  margin-left: 3rem;
+
+  color: #fafbfb;
+}
+.direct1 h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+
+  text-align: left;
+  margin-left: 3rem;
+  color: #7a8699;
+}
+/* two */
+
+.main-direct2 {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+}
+.direct2 {
+  width: 40%;
+  margin-right: 2rem;
+  background: rgba(66, 82, 109, 0.08);
+  padding: 3rem;
+
+  border: 1px solid #6ba6ff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+
+  border-radius: 24px;
+}
+.direct3 {
+  width: 60%;
+  background: rgba(66, 82, 109, 0.08);
+  padding: 3rem;
+  border: 1px solid #42526d;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+
+  border-radius: 24px;
+}
+.direct2 h1 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 40px;
+
+  text-align: left;
+  margin-left: 3rem;
+  color: #fafbfb;
+}
+.direct2 h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+
+  text-align: left;
+  margin-left: 3rem;
+  color: #7a8699;
+}
+.direct3 h1 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 40px;
+
+  text-align: left;
+  margin-left: 3rem;
+
+  color: #fafbfb;
+}
+.direct3 h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+
+  text-align: left;
+  margin-left: 3rem;
+  color: #7a8699;
+}
+
+.main-direct4 {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+}
+.direct4 {
+  width: 60%;
+  margin-right: 2rem;
+  background: rgba(66, 82, 109, 0.08);
+  padding: 3rem;
+
+  border: 1px solid #42526d;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+
+  border-radius: 24px;
+}
+.direct5 {
+  width: 40%;
+  /* margin-right: 2rem; */
+  background: rgba(66, 82, 109, 0.08);
+  padding: 3rem;
+
+  border: 1px solid #42526d;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+
+  border-radius: 24px;
+}
+.direct4 h1 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 40px;
+
+  text-align: left;
+  margin-left: 3rem;
+
+  color: #fafbfb;
+}
+.direct4 h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+
+  text-align: left;
+  margin-left: 3rem;
+  color: #7a8699;
+}
+.direct5 h1 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 40px;
+
+  text-align: left;
+  margin-left: 3rem;
+
+  color: #fafbfb;
+}
+.direct5 h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+
+  text-align: left;
+  margin-left: 3rem;
+  color: #7a8699;
+}

@@ -1,0 +1,63 @@
+.our-footprint-about {
+  margin-top: 15rem;
+}
+
+.footprint-about {
+  color: #6ba6ff;
+  font-family: "Blinker";
+  text-align: center;
+}
+.passionate-about {
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+  color: #fafbfb;
+  font-family: "Blinker";
+  text-align: center;
+  font-size: 44px;
+  line-height: 50px;
+}
+.mission-bottom {
+  margin-top: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.award3 {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.award3-icons {
+  margin-right: 1rem;
+}
+.award3-icon {
+  color: #6ba6ff;
+  padding-top: 1rem;
+  text-align: center;
+  width: 4rem;
+  height: 4rem;
+  /* margin-right: 2rem; */
+  background: #101a2d;
+  border-radius: 5px;
+}
+
+.award3 h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #fafbfb;
+}
+.award3 p {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 0;
+  color: #7a8699;
+}

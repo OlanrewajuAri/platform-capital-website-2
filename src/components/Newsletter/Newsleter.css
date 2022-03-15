@@ -1,0 +1,100 @@
+.newsletter {
+  width: 70%;
+  margin: 20px auto;
+}
+.newsletter h2 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 55px;
+  /* identical to box height, or 115% */
+
+  text-align: center;
+
+  /* Neutrals/N10 */
+
+  color: #fafbfb;
+}
+.news {
+  width: 100%;
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 27px;
+
+  height: 54px;
+
+  text-align: center !important;
+
+  color: #7a8699;
+}
+.newsletter button {
+  width: 15rem;
+  height: 4rem;
+  color: white !important;
+  background-color: #0065ff !important;
+  margin-top: 2rem;
+  border-radius: 5px;
+  /* padding: 10px; */
+  text-transform: lowercase;
+  font-size: 19px;
+  font-family: "blinker";
+}
+.newsletter button:hover {
+  color: white !important;
+  background: #1f2a3e !important;
+  backdrop-filter: blur(20px);
+
+  border-radius: 5px;
+}
+.newsletter label {
+  font-family: "Blinker";
+}
+.general-news {
+  width: 100%;
+  height: auto;
+
+  /* Note: backdrop-filter has minimal browser support */
+
+  background: rgba(66, 82, 109, 0.08);
+  /* Neutrals/N500 */
+
+  border: 0.5px solid #42526d;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 24px;
+  text-align: center;
+  padding: 40px;
+  margin-top: 15rem;
+}
+input {
+  color: #fafbfb;
+}
+.input-field {
+  margin-top: 4rem !important;
+  background: #101a2d;
+  border-radius: 12px;
+}
+.input-field input[type="email"]:focus + label {
+  color: #fafbfb !important;
+}
+
+.input-field input[type="email"]:focus {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+.input-field input[type="email"] {
+  border-bottom: none !important;
+}
+.input-field label {
+  color: #fafbfb !important;
+}
+
+.input-field .prefix.active {
+  color: #fafbfb !important;
+}
