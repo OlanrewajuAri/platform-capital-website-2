@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import "./Home3.css";
 import woman from "../../images/woman.png";
 
@@ -8,11 +10,30 @@ import { Newsletter } from "../Newsletter/Newsletter";
 import { Portfolio } from "../Portfolio/Portfolio";
 
 export const Home3 = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+  });
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        x: 0,
+        transition: { duration: 2, type: "tween" },
+      });
+    } else {
+      animation.start({
+        x: "100vw",
+        transition: { duration: 5, type: "tween" },
+      });
+    }
+  }, [inView]);
+
   useEffect(() => {
     AOS.init({
       easing: "ease-in-sine",
       delay: 400,
-      duration:1000
+      duration: 1000,
     });
     AOS.refresh();
   }, []);
@@ -28,7 +49,7 @@ export const Home3 = () => {
           potential for regional or global scale.
         </h6>
       </div>
-      <div className="section3-3" data-aos="flip-left">
+      <div className="section3-3" data-aos="zoom-in">
         <div className="portfolio">
           <h2>$1BN+</h2>
           <h6>Portfolio Valuation</h6>
@@ -47,18 +68,18 @@ export const Home3 = () => {
         </div>
       </div>
 
-      <div className="roots">
+      <div ref={ref} className="roots">
         <div className="main-values">
           <div className="woman3">
             <img src={woman} alt="image" className="responsive-img" />
           </div>
           <div className="values">
             <h6>OUR CORE VALUES</h6>
-            <h1>Brother’s Keeper</h1>
-            <h2>Loyalty</h2>
-            <h2>Authenticity</h2>
-            <h2>Capacity</h2>
-            <h2>Knowledge</h2>
+            <motion.h1 animate={animation}>Brother’s Keeper</motion.h1>
+            <motion.h2 animate={animation}>Loyalty</motion.h2>
+            <motion.h2 animate={animation}>Authenticity</motion.h2>
+            <motion.h2 animate={animation}>Capacity</motion.h2>
+            <motion.h2 animate={animation}>Knowledge</motion.h2>
           </div>
         </div>
       </div>

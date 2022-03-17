@@ -1,13 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { motion } from "framer-motion";
 import "./Home1.css";
 
 import woman from "../../images/woman.png";
 
 export const Home1 = () => {
- 
-  
   return (
     <div className="container">
       <div className="main">
@@ -18,17 +16,35 @@ export const Home1 = () => {
             experience, technical partnerships, and knowledge to champion,
             invest and grow businesses on a global scale.
           </h6>
-          <div className="link">
+
+          <motion.div
+            className="link"
+            initial={{ opacity: 0 }}
+            animate={{
+              opacity: 1,
+            }}
+            transition={{ delay: 1.5, duration: 3 }}
+          >
             <Link to="" class="btn">
               Learn more about us
             </Link>
-          </div>
+          </motion.div>
         </div>
-        <div className="image">
+        <motion.div
+          className="image"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5, duration: 3 }}
+        >
           <img src={woman} alt="Image" className="responsive-img" />
-        </div>
+        </motion.div>
 
-        <div className="icons">
+        <motion.div
+          className="icons"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5, duration: 3 }}
+        >
           <Link to="">
             <i
               class="fab fa-linkedin fa-1x foos"
@@ -53,7 +69,7 @@ export const Home1 = () => {
               style={{ color: "#a1887f" }}
             ></i>
           </Link>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

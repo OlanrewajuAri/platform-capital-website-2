@@ -1,6 +1,7 @@
 .nav-style {
   background: rgba(1, 7, 18, 0.95) !important;
   backdrop-filter: blur(5px) !important;
+  z-index: 999;
 }
 
 a {
@@ -9,6 +10,18 @@ a {
 }
 a.active {
   color: #ebf3ff !important;
+}
+
+.nav-style ul li button {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafbfb;
+  background: #0065ff !important;
+  border-radius: 12px;
+  margin-left: 4rem !important;
 }
 .contact-button {
   background: #0065ff !important ;
@@ -19,5 +32,196 @@ a.active {
 .brand-logo img {
   width: 10rem;
   height: 6rem;
-  
+}
+
+.mod .modal {
+  width: 80% !important;
+
+  background: rgba(1, 7, 18, 0.95);
+  backdrop-filter: blur(5px);
+  border-radius: 16px !important;
+}
+
+.modal-content {
+  width: 100%;
+
+  background: rgba(1, 7, 18, 0.95);
+  backdrop-filter: blur(5px);
+}
+.connect {
+  width: 50%;
+}
+.connect h1 {
+  margin-top: 2rem !important;
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+  width: 80% !important;
+  color: #fafbfb;
+}
+.connect h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  width: 80% !important;
+  color: #7a8699;
+}
+.connect p {
+  margin-top: 8rem !important;
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  width: 80% !important;
+  color: #7a8699;
+}
+.form-data {
+  width: 50%;
+  background: #101a2d !important;
+  padding: 1rem !important;
+  border-radius: 16px;
+}
+.spread {
+  display: flex;
+}
+.field1 {
+  text-align: center !important;
+  margin-top: -2rem !important;
+}
+.field1 .input-field {
+  padding: 2rem !important;
+}
+
+.field1 input {
+  background: #1f2a3e !important;
+
+  border: 1px solid #6ba6ff !important;
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+}
+.field1 textarea {
+  background: #1f2a3e !important;
+  padding: 10px !important;
+  border: 1px solid #6ba6ff !important;
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+}
+.form-data ul {
+  width: 100%;
+  background-color: #1f2a3e !important;
+  /* border-radius: 16px; */
+}
+.form-data ul li {
+  width: 30%;
+}
+.form-data ul li a {
+  color: #fafbfb !important;
+}
+.form-data ul li a.active {
+  background: #0065ff !important;
+  border-radius: 10px !important;
+}
+.tabs .indicator {
+  background: transparent !important;
+}
+.field1 button {
+  background: #0065ff !important;
+  border-radius: 12px;
+  width: 90% !important;
+  height: 4rem !important;
+  margin-top: 0px !important;
+
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Neutrals/N10 */
+
+  color: #fafbfb;
+}
+.top-modal {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(1, 7, 18, 0.95);
+  backdrop-filter: blur(5px);
+}
+.modal-footers {
+  margin-right: 2rem !important;
+  margin-top: 1rem;
+}
+.modal-logo {
+  margin-left: 2rem !important;
+  margin-top: 1rem;
+}
+
+.office-location {
+  background: #0e131e;
+  /* border-radius: 16px; */
+  padding: 2rem;
+}
+
+.office-location h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+
+  color: #c2c7d0;
+}
+
+.contact-main {
+  margin-top: 2rem;
+  display: flex;
+  align-items: baseline;
+}
+.contact-mains {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.contact-icone {
+}
+.text1 {
+  margin-left: 2rem;
+}
+
+.contact-icone .foos {
+  color: #6ba6ff !important;
+  padding-top: 1rem;
+  /* text-align: center; */
+  width: 3rem;
+  height: 3rem;
+  /* margin-right: 3px; */
+  background: #1f2a3e;
+  border-radius: 2rem;
+}
+
+.text1 h6 {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 15px;
+
+  color: #f5f6f7;
+}
+.text1 p {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 0px;
+
+  color: #7a8699;
+  /* margin-top: -0.5rem; */
 }

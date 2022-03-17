@@ -10,15 +10,21 @@ import { Newsletter } from "../../components/Newsletter/Newsletter";
 import { Portfolio1 } from "../../components/Portfolio1/Portfolio1";
 import { useDocumentTitle } from "../../components/TitleChange/TitleChange";
 import { AnimatePage } from "../../components/Animate/AnimatePage";
+import { motion } from "framer-motion";
 
 export const About = () => {
   useDocumentTitle("Platform | About");
   return (
-    <AnimatePage>
+    
       <div>
         <div className="container">
           <div className="main">
-            <div className="section1-1">
+            <motion.div
+              className="section1-1"
+              initial={{ y: "-100vh", zIndex: -2 }}
+              animate={{ y: 0 }}
+              transition={{ delay: 0, duration: 1 }}
+            >
               <h3>We are passionate about changing the african narrative.</h3>
               <h6>
                 we are growth markets focused, sector agnostic, principal
@@ -32,12 +38,22 @@ export const About = () => {
                   Learn more about us
                 </Link>
               </div>
-            </div>
-            <div className="image">
+            </motion.div>
+            <motion.div
+              className="image"
+              initial={{ y: "-100vh", zIndex: -2 }}
+              animate={{ y: 0 }}
+              transition={{ delay: 0, duration: 1 }}
+            >
               <img src={woman} alt="Image" className="responsive-img" />
-            </div>
+            </motion.div>
 
-            <div className="icons">
+            <motion.div
+              className="icons"
+              initial={{ y: "-100vh", zIndex: -2 }}
+              animate={{ y: 0 }}
+              transition={{ delay: 0, duration: 1 }}
+            >
               <Link to="">
                 <i
                   class="fab fa-linkedin fa-1x foos"
@@ -62,7 +78,7 @@ export const About = () => {
                   style={{ color: "#a1887f" }}
                 ></i>
               </Link>
-            </div>
+            </motion.div>
           </div>
 
           {/* partners */}
@@ -316,6 +332,6 @@ export const About = () => {
         </div>
         );
       </div>
-    </AnimatePage>
+    
   );
 };

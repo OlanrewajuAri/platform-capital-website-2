@@ -18,29 +18,35 @@ import { useEffect, useState } from "react";
 import ScaleLoader from "react-spinners/ScaleLoader";
 import { Gototop } from "./components/Gototop/Gototop";
 import { AnimatePresence } from "framer-motion";
+import { Contact } from "./pages/contact/Contact";
+import { CreatePost } from "./pages/CreatePost/CreatePost";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [loading, setLoading] = useState(false);
 
-  // useEffect(() => {
-  //   setLoading(true);
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 14000);
-  // }, []);
+  useEffect(() => {
+    // setLoading(true);
+    // setTimeout(() => {
+    //   setLoading(false);
+    // }, 14000);
+  }, []);
 
   const Routing = () => {
     const location = useLocation();
     return (
-      <Routes key={location.pathname} location={location}>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/portfolio" element={<PortfolioPage />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/investorportal" element={<Investor />} />
-        <Route path="/blogpost" element={<BlogPost />} />
-      </Routes>
+      <AnimatePresence exitBeforeEnter>
+        <Routes key={location.pathname} location={location}>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/investorportal" element={<Investor />} />
+          <Route path="/blogpost" element={<BlogPost />} />
+          <Route path="/create" exact element={<CreatePost />} />
+        </Routes>
+      </AnimatePresence>
     );
   };
 
@@ -69,10 +75,11 @@ function App() {
         </div>
       ) : (
         <Router>
+          <ToastContainer />
           <Navbar />
-          <AnimatePresence exitBeforeEnter>
-            <Routing />
-          </AnimatePresence>
+
+          <Routing />
+
           <Gototop />
           <Footer />
         </Router>

@@ -15,7 +15,7 @@ export const Home = () => {
   
   return (
     <AnimatePage>
-      <div>
+      <div className="home">
         <Home1 />
         <Home2 />
         <Home3 />

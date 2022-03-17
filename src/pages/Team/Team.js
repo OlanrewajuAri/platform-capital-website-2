@@ -113,12 +113,12 @@ export const Team = () => {
                 clients and partners successful and achieve their goals. We are
                 driven to exceed the expectations of our stakeholders.
               </p>
-              <button data-target="modal1" class="btn modal-trigger">
+              <button data-target="modal2" class="btn modal-trigger">
                 <i class="fa fa-play-circle-o" aria-hidden="true"></i>
                 See Introductory Video
               </button>
 
-              <div id="modal1" class="modal">
+              <div id="modal2" class="modal">
                 <div class="modal-content">
                   <video
                     height="auto"

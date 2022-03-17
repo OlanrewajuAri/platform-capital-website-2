@@ -3,7 +3,7 @@
   align-items: baseline;
   width: 100%;
   height: auto;
-  margin-top: 10rem
+  margin: 7rem auto;
 }
 
 .section3-1 {
@@ -20,6 +20,7 @@
   font-family: "Blinker";
   font-size: 16px;
   line-height: 27px;
+  margin-left: 5rem;
 }
 
 .section3-3 {
